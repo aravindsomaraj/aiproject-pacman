@@ -1,6 +1,15 @@
 import re
+import sys
 
-with open('puzzles/input7.txt') as f:
+arguments = sys.argv
+arg1 = arguments[1]
+arg1 = int(arg1)
+
+if __name__ == "__main__":
+    import output
+    output.fun(arg1)
+
+with open(f'testcases/input{arg1}.txt') as f:
     lines = f.readlines()
     
 # reading input    
