@@ -13,11 +13,11 @@ This project provides a comprehensive solution for the UC Berkeley Pacman AI cou
 The project covers several fundamental concepts in artificial intelligence, allowing exploration and implementation of algorithms related to Uninformed and Informed Search, Game Search, Constraint Satisfaction Problem (CSP), Probabilistic Inference using Bayesian Networks, and Reinforcement Learning.
 
 ## **Project Structure**
-- **'search/'** - Contains code related to search algorithms, including uninformed and informed search.
-- **'multiagent/'** - Contains code for multi-agent search algorithms, which are used in the game-playing scenarios.
-- **'reinforcement/'** - Contains code that implements reinforcement learning algorithms to train Pacman agents, allowing them to learn and improve their behavior through interaction with the environment.
-- **'tracking/'** - Contains code dealing with probabilistic inference in a hidden Markov model tracks the movement of hidden ghosts in the Pacman world.
-- **'csp/'** - Separate from the Pacman game, this contains code for dealing with Constraint Satisfaction Problems (CSPs) like Kakuro. 
+- `search/` - Contains code related to search algorithms, including uninformed and informed search.
+- `multiagent/` - Contains code for multi-agent search algorithms, which are used in the game-playing scenarios.
+- `reinforcement/` - Contains code that implements reinforcement learning algorithms to train Pacman agents, allowing them to learn and improve their behavior through interaction with the environment.
+- `tracking/` - Contains code dealing with probabilistic inference in a hidden Markov model tracks the movement of hidden ghosts in the Pacman world.
+- `csp/` - Separate from the Pacman game, this contains code for dealing with Constraint Satisfaction Problems (CSPs) like Kakuro. 
 
 ## **Installation**
 To get started with the project, follow these steps:  
